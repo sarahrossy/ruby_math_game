@@ -1,4 +1,9 @@
-require 'Player'
-require 'Question'
-require 'Game'
+require 'pp'
 
+require_relative 'Player'
+require_relative 'Question'
+require_relative 'Game'
+
+
+game = Game.new()
+game.start
